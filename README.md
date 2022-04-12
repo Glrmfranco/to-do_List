@@ -19,7 +19,7 @@
 
 ### Links
 
-- Live Site URL: [Link](https://glrmfranco.github.io/to-do_list/)
+- Live Site URL: [Link](https://glrmfranco.github.io/to-do_List/)
 
 ## My process
 
