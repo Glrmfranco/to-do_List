@@ -41,7 +41,11 @@ function criaBtnApagar(li) {
     botaoApagar.innerText = 'Apagar'
     li.appendChild(botaoApagar)
     salvarTarefas()
+}
 
+function apagaTudo() {
+    const lista = tarefas.querySelectorAll('li')
+    lista.forEach(el => el.remove())
 
 }
 
@@ -50,6 +54,9 @@ document.addEventListener('click', (e) => {
     if (et.classList.contains('apagar')) {
         et.parentElement.remove()
         salvarTarefas()
+    }
+    if (et.classList.contains('apaga-tudo')) {
+        apagaTudo()
     }
 })
 
